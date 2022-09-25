@@ -1,0 +1,180 @@
+body {
+  font-family: "Circe", Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 46px;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #7e7e7e;
+}
+
+p {
+  color: #7e7e7e;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+
+small {
+  color: black;
+  display: block;
+}
+
+.img-fluid {
+  max-width: 90%;
+}
+
+.project-name {
+  text-align: left;
+}
+.main {
+  position: relative;
+  top: 150px;
+  margin-bottom: 150px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.technology {
+  font-family: "Source Code Pro", monospace;
+  font-size: 11px;
+}
+
+.navbar-brand {
+  font-family: "Bebas Neue", cursive;
+}
+
+.center {
+  text-align: center;
+}
+
+.container-about {
+  margin-top: 150px;
+}
+
+.about-me {
+  margin-top: 90px;
+}
+
+.skills {
+  border: 1px solid #f1f1f1;
+  padding: 20px;
+}
+
+.skills-h2 {
+  font-size: 18px;
+  font-family: "Source Code Pro", monospace;
+  color: black;
+}
+
+#shecodes {
+  text-decoration: none;
+  color: #7e7e7e;
+  font-weight: 600;
+}
+
+#weather-button {
+  width: 200px;
+  padding: 19px 20px 17px;
+  border-radius: 0px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  transition: all 0.5s ease;
+  text-decoration: none;
+  display: block;
+  margin-top: 60px;
+  background: none;
+  -webkit-appearance: none;
+  font-size: 14px;
+  color: black;
+  border: 1px solid black;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#button {
+  width: 200px;
+  padding: 19px 20px 17px;
+  border-radius: 0px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  transition: all 0.5s ease;
+  text-decoration: none;
+  display: block;
+  margin: 0 40px 90px 40px;
+  background: none;
+  -webkit-appearance: none;
+  font-size: 14px;
+  color: black;
+  border: 1px solid black;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#button:hover {
+  background-color: #171717;
+  color: #ffffff;
+  border-color: #171717;
+}
+.projects {
+  color: black;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .buttons {
+    margin-top: 46px;
+  }
+  #button {
+    margin: 0 20px 40px 40px;
+    font-size: 12px;
+  }
+  .img-weather,
+  .vika {
+    display: block;
+    margin: 0 auto !important;
+  }
+
+  .project-name {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  #weather-button {
+    display: block;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  .container-about {
+    margin-top: 115px;
+  }
+  .about-me {
+    margin-top: 58px;
+  }
+
+  .introduce {
+    padding: 20px !important;
+    margin-top: 20px !important;
+  }
+}
