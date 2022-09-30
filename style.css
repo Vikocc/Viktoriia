@@ -184,6 +184,9 @@ footer .social-links a {
     margin: 0 auto !important;
   }
 
+  .skills {
+    margin: 0 20px;
+  }
   .project-name {
     text-align: center;
     margin-top: 40px;
